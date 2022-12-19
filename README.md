@@ -30,3 +30,13 @@ To build & run
   mvn clean install
   mvn spring-boot:run
   ```
+  
+
+```
+Examples
+DozerBeanMapper, src/main/java/com/nocode/entity/UserEntity.java 
+Loggable, src/main/java/com/nocode/controller/UserController.java
+lombok, src/main/java/com/nocode/entity/UserEntity.java 
+JPARepository, src/main/java/com/nocode/repository/UserRepository.java
+JSONMerge, src/test/java/com/nocode/util/pojo/Employee.java & src/main/java/com/nocode/util/MergeUtil.java 
+  ```
