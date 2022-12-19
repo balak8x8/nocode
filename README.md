@@ -42,3 +42,9 @@ JSONMerge, src/test/java/com/nocode/util/pojo/Employee.java & src/main/java/com/
 Unit Test, src/test/java/com/nocode/util/MergeUtilTest.java
 Integration Test, src/test/java/com/nocode/controller/UserControllerTest.java
   ```
+
+```
+Note
+  Please dont include Javax.persistence package for Entity and it has to be jakarta.persistence. Otherwise application restart will throw an error that Entity is not a managed type
+
+  ```
