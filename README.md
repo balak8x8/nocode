@@ -39,4 +39,6 @@ Loggable, src/main/java/com/nocode/controller/UserController.java
 lombok, src/main/java/com/nocode/entity/UserEntity.java 
 JPARepository, src/main/java/com/nocode/repository/UserRepository.java
 JSONMerge, src/test/java/com/nocode/util/pojo/Employee.java & src/main/java/com/nocode/util/MergeUtil.java 
+Unit Test, src/test/java/com/nocode/util/MergeUtilTest.java
+Integration Test, src/test/java/com/nocode/controller/UserControllerTest.java
   ```
