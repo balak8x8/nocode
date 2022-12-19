@@ -18,7 +18,15 @@ no args constructor and much mode
 * __JPARepository__, Application uses __JPARepository__ to access database. __JPARepository__ does not require us to read any sql in the class
 * __JSONMerge__, Application uses __JSONMerge__ to do deep merge of nested objects
 
+```
+Before build & run
+  Create USERSERVICE database in the local MySQL server using the below comment
+  CREATE DATABASE USERSERVICE;
+  Put the mysql password in the application.yml at src/main/resources/application.yml at spring.datasource.password
+  ```
 
-
-
-
+```
+To build & run
+  mvn clean install
+  mvn spring-boot:run
+  ```
