@@ -1,4 +1,4 @@
-# A spring boot 3 sample app project
+# A Spring Boot 3 Lowcode/Nocode Sample Project
 Sample app generated from https://start.spring.io/ with the below
 * Spring Boot 3
 * Java 17
