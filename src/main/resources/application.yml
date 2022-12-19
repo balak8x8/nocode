@@ -1,0 +1,22 @@
+
+spring:
+  application:
+    name: dbdemo
+  datasource:
+    url: jdbc:mysql://localhost:3306/USERSERVICE?useSSL=false
+    username: root
+    password: $Bdinesh6
+    flyway:
+      schemas:
+        - USERSERVICE
+
+#logging:
+#  level:
+    #root: DEBUG
+    #web: TRACE
+#logging:
+ # level:
+  #  web: TRACE
+#server:
+ # ssl:
+  #  enabled: false
