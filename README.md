@@ -17,7 +17,8 @@ https://aspects.jcabi.com/annotation-loggable.html. Since the
 current implementation of JCABI does not log the target class name we are using the logThis = true 
 in @Loggable(prepend = true, logThis = true)
 * __lombok__, instead of generating all the getter and setter functions for any class we can use 
-__lombok__. Lombok also supports all args constructor
+__lombok__. Lombok also supports all args constructor. You can also use @Slf4j if u just need log member
+in the class.
 no args constructor and much mode
 * __JPARepository__, Application uses __JPARepository__ to access database. __JPARepository__ does 
 not require us to read any sql in the class
