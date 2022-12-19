@@ -20,7 +20,7 @@ no args constructor and much mode
 
 ```
 Before build & run
-  Create USERSERVICE database in the local MySQL server using the below comment
+  Create USERSERVICE database in the local MySQL server using the below command if u dont have an existing database
   CREATE DATABASE USERSERVICE;
   Put the mysql password in the application.yml at src/main/resources/application.yml at spring.datasource.password
   ```
